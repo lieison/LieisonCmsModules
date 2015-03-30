@@ -1,0 +1,13 @@
+<div class="item">
+													<div class="item-head">
+														<div class="item-details">
+															<img class="item-pic" src="../../assets/admin/layout3/img/avatar4.jpg">
+															<a href="" class="item-name primary-link">Nick Larson</a>
+															<span class="item-label">3 hrs ago</span>
+														</div>
+														<span class="item-status"><span class="badge badge-empty badge-success"></span> Open</span>
+													</div>
+													<div class="item-body">
+														 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+													</div>
+												</div>
