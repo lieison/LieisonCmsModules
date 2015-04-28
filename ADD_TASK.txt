@@ -1,0 +1,113 @@
+<div class="col-md-6 ">
+				<div class="portlet light ">
+						<div class="portlet-title">
+							<div class="caption font-red-sunglo">
+                                                            Informacion de la tarea
+							</div>
+							<div class="actions">
+							</div>
+						</div>
+						<div class="portlet-body">
+              
+                                                    <form action="#" class="form-horizontal form-bordered">
+                                                   
+                                                   <div class="form-group">
+										<label class="control-label col-md-3">Asignar A:</label>
+										<div class="col-md-5">
+											<div class="input-group">
+												<span class="input-group-addon">
+                                                                                                    <i class="fa fa-user"></i>
+												</span>
+                                                                                                <select id="cmd_asignar" class="form-control select2me" data-placeholder="Select...">
+													
+												</select>
+											</div>
+											<!-- /input-group -->
+										</div>
+						   </div>
+
+                                                        
+                                                        
+                                                        
+                                                    <div class="form-group">
+										<label class="control-label col-md-3">Titulo</label>
+										<div class="col-md-5">
+                                                                                    <input type="text" class="form-control " placeholder="Nombre de la tarea">
+										</div>
+						    </div>    
+                                                        
+
+                                                    <div class="form-group">
+										<label class="control-label col-md-3">DeadLine</label>
+										<div class="col-md-3">
+											<div class="input-group input-medium date date-picker" data-date-format="dd-mm-yyyy" data-date-start-date="+0d">
+												<input type="text" class="form-control" readonly>
+												<span class="input-group-btn">
+												<button class="btn default" type="button"><i class="fa fa-calendar"></i></button>
+												</span>
+											</div>
+											
+										</div>
+						    </div>
+                                                    
+                                                    <div class="form-group">
+										<label class="control-label col-md-3">Hora DeadLine</label>
+										<div class="col-md-4">
+											<div class="input-group">
+												<input type="text" class="form-control timepicker timepicker-24">
+												<span class="input-group-btn">
+												<button class="btn default" type="button"><i class="fa fa-clock-o"></i></button>
+												</span>
+											</div>
+										</div>
+						    </div>
+                                                            
+
+                                                    </form>
+							
+						</div>
+					</div>
+					<!-- empty sortable porlet required for each columns! -->
+					<div class="portlet portlet-sortable-empty">
+					</div>
+</div>
+<div class="col-md-6 ">
+					<div class="portlet light ">
+						<div class="portlet-title">
+							<div class="caption font-red-sunglo">
+								
+							</div>
+							<div class="actions">
+								<div class="btn-group btn-group-devided" data-toggle="buttons">
+									
+								</div>
+							</div>
+						</div>
+						<div class="portlet-body">
+							
+						</div>
+					</div>
+					<!-- empty sortable porlet required for each columns! -->
+					<div class="portlet portlet-sortable-empty">
+					</div>
+</div>
+<div class="col-md-12 ">
+    <div class="portlet light ">
+						<div class="portlet-title">
+							<div class="caption font-red-sunglo">
+								
+							</div>
+							<div class="actions">
+								<div class="btn-group btn-group-devided" data-toggle="buttons">
+									
+								</div>
+							</div>
+						</div>
+						<div class="portlet-body">
+							
+						</div>
+					</div>
+					<!-- empty sortable porlet required for each columns! -->
+					<div class="portlet portlet-sortable-empty">
+					</div>
+</div>

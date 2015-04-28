@@ -1,0 +1,31 @@
+<?php
+ $i = 1; $mult_2_3 = 0; $mult_2 = 0; $mult_3 = 0;
+ echo "Verifiquemos los múltiplos de 2 y 3 (del 1 al 10):\n";
+ echo "--------------------------------------------------\n";
+ while($i <= 10){
+   if(($i % 2 == 0) AND ($i % 3 == 0) )
+   { 
+     echo "$i es múltiplo de 2 y de 3.\n";
+     $mult_2_3 += 1;
+   }elseif ($i % 2 == 0)
+   {
+     echo "$i es múltiplo de 2.\n";
+     $mult_2 += 1;
+   }elseif ($i % 3 == 0)
+   {
+     echo "$i es múltiplo de 3.\n";
+     $mult_3 += 1;
+   }else
+   {
+     echo "$i no es múltiplo de 2 ni de 3.\n";
+   }
+   $i += 1;  //ojo: esta línea es muy importante!!!
+ } 
+   echo "--------------------------------------------------\n";
+   echo "Entre 1 y 10 hay: \n";
+   echo "   * '$mult_2_3' múltiplos de 2 y 3.\n";
+   echo "   * '$mult_2' múltiplos de 2.\n";
+   echo "   * '$mult_3' múltiplos de 3.\n";
+   echo "Los restantes '" . (10 - $mult_2_3 - $mult_2 - $mult_3) .
+        "' números no son múltiplos ni de 2 ni de 3.\n";
+?>
